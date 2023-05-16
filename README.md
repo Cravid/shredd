@@ -1,2 +1,11 @@
 # shredd
-Daemonize shred command and monitor udev for new devices to shred.
+
+shredd is daemon that monitors USB connected devices and allows auto-shred execution on connection based on different filters.
+
+## Installation
+
+- git clone http://gitlab.local/DS/shredd.git
+- install pip, e.g. apt install pip
+- cd shredd
+- pip install -r requirements.txt
+- python3 shredd.py start|stop|restart
