@@ -4,7 +4,7 @@ shredd is daemon that monitors USB connected devices and allows auto-shred execu
 
 ## Installation
 
-- git clone http://gitlab.local/DS/shredd.git
+- git clone repository
 - install pip, e.g. apt install pip
 - cd shredd
 - pip install -r requirements.txt
